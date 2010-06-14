@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://code.google.com/schema/inject/core"
+	xmlns:jndi="http://code.google.com/schema/inject/jndi">
+
+	<bind type=""/>
+	<bind type="" named="" to=""/>
+	<bind type="org.slf4j.Logger" to="org.slf4j.spi.Log4Logger"/>
+	<bind type="" to="" scope=""/>
+	<bind type="" toProvider=""/>
+	<jndi:bind type="java.sql.DataSource" to="env/java/someDS"/>
+
+</module>
